@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".Admin.Admin.AdminMenu">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar30"
+        app:title="Admin Panel"
+        app:navigationIcon="@drawable/back_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/toolbar30"
+            android:id="@+id/sponsorsupload"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:text="Sponsors Image Upload"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"/>
+        <Button
+            android:id="@+id/newsupload"
+            android:layout_below="@id/sponsorsupload"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:text="News Feed Image Upload"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"/>
+        <Button
+            android:id="@+id/userverification"
+            android:layout_below="@id/newsupload"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:text="user verification"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"/>
+</RelativeLayout>

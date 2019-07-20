@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserModules.CoreMembers"
+    android:background="#000000">
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/plan_home"
+        android:scaleType="centerCrop"/>
+    --><ScrollView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Sachin Prajapati"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Nikesh Parmanand Yadav"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Event Coordinator"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Omkar Chavan"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Marketing Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Pallavi Oberai"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Marketing Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Sailee Pingle"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Public Relation Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Rohit Anand Shinde"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Logistic Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Omkar Vasant Rane"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Creativity Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Shivani Deepak Shingre"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Creativity Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Saloni Sandeep Chikhalkar"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Performance Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Tanvi Ravindra Moharkar"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Performance Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Sonik sarungale"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="DPT Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Amritanshu Singh"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="DPT Head"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Apeksha Shetty"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="Admin"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+                <TextView
+                    android:text="________________________________________"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar7"
+        app:navigationIcon="@drawable/back_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+</RelativeLayout>

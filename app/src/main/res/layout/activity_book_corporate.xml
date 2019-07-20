@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Book">
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <TableRow
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="Event Name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/Ename"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:text="Enter PR member Code below: "
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/EPRCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberPassword"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:text="Entry Fee:"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/entryfee"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/PRcheck"
+                    android:background="@drawable/round_shape"
+                    android:text="Verify"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="30dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/disevent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar6"
+        app:navigationIcon="@drawable/back_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+</RelativeLayout>

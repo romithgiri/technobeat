@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserModules.Events"
+    android:gravity="center"
+    android:background="#000000">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar9"
+            app:navigationIcon="@drawable/back_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="#000000"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+    <TableLayout android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow android:gravity="center_horizontal"
+            android:paddingVertical="10dp">
+            <ImageButton
+                android:id="@+id/technical"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/technical"
+                android:src="@drawable/round_shape"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"/>
+            <ImageButton
+                android:id="@+id/gaming"
+                android:paddingHorizontal="5dp"
+                android:src="@drawable/round_shape"
+                android:background="@drawable/gaming"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"/>
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+            <ImageButton
+                android:id="@+id/corporate"
+                android:paddingHorizontal="5dp"
+                android:src="@drawable/round_shape"
+                android:background="@drawable/corporate"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"/>
+            <ImageButton
+                android:id="@+id/photography"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/photograpy"
+                android:src="@drawable/round_shape"
+                android:layout_height="170dp"
+                android:layout_width="170dp"
+                android:scaleType="centerCrop"/>
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal"
+            android:paddingVertical="10dp">
+            <ImageButton
+                android:id="@+id/flagship"
+                android:paddingHorizontal="5dp"
+                android:src="@drawable/round_shape"
+                android:background="@drawable/flagship"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"/>
+            <ImageButton
+                android:id="@+id/media"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/media"
+                android:src="@drawable/round_shape"
+                android:layout_height="170dp"
+                android:layout_width="170dp"
+                android:scaleType="centerCrop"/>
+        </TableRow>
+
+    </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

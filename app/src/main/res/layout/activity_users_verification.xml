@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Admin.Admin.UsersVerification">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar18"
+        app:navigationIcon="@drawable/back_arrow"
+        app:title="Verify Participants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/getuserphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone number here"
+            android:inputType="number"
+            android:textColor="@color/skyblue"
+            android:textColorHint="@color/skyblue"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/verifyPuser"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_shape"
+            android:text="Get the details"
+            android:textColor="@color/skyblue"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:text="___________________________________________"
+        android:textColor="@color/skyblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/hideandshowdetails"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Name: "
+                android:textColor="@color/skyblue"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vname"
+                android:textSize="25dp"
+                android:textColor="@color/skyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="College Name: "
+                android:textColor="@color/skyblue"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vcollege"
+                android:textSize="25dp"
+                android:textColor="@color/skyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Email: "
+                android:textColor="@color/skyblue"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vemail"
+                android:textSize="25dp"
+                android:textColor="@color/skyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Phone No.: "
+                android:textColor="@color/skyblue"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vphone"
+                android:textSize="25dp"
+                android:textColor="@color/skyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Participant: "
+                android:textColor="@color/skyblue"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vparticipated"
+                android:textSize="25dp"
+                android:textColor="@color/skyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:gravity="center"
+            android:text="___________________________________________"
+            android:textColor="@color/skyblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/markasenter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/black"
+            android:text="Mark as enter"
+            android:textSize="30dp"
+            android:background="@drawable/round_button"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/markasexit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/black"
+            android:text="Mark as exit"
+            android:textSize="30dp"
+            android:background="@drawable/round_button"/>
+    </LinearLayout>
+</LinearLayout>

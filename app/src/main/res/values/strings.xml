@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TechnoBeat</string>
+    <string name="title_activity_corporate_events">CorporateEvents</string>
+    <string name="about_fest">  We are organising an event known as TECHNOBEAT which is a very lively technical festival of 2 days (1st- 2nd Feb). It comprises of a series of technical events that are aimed at entertainment and cultivation of good taste in general knowledge of the students and giving them opportunities to manifest their technical skills.</string>
+    <string name="title_activity_feed_and_navigate">TechnoBeat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="discription">
+            1.	Black Coding:
+            Description- It’s a C++ Coding based event where, the participant has to code with the monitor screen turned off.
+            •	Entry fee: Rs. 30
+            	Event Heads:
+            	Shivangi Tripathi : +917208128895
+            	Shivani Shingare: +918286491884
+    </string>
+    <string name="event">Event</string>
+</resources>

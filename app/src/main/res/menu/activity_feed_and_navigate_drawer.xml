@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_fest"
+            android:title="About Fest" />
+        <item
+            android:id="@+id/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/participated"
+            android:title="Participated" />
+        <item
+            android:id="@+id/sponsor"
+            android:title="Our Sponsors" />
+        <item
+            android:id="@+id/follow"
+            android:title="Follow Us" />
+        <item
+            android:id="@+id/admin"
+            android:title="Admin"/>
+        <item
+            android:id="@+id/core"
+            android:title="Core Members" />
+    </group>
+    <item
+        android:id="@+id/developer"
+        android:title="Developer" />
+    <item
+        android:id="@+id/Logout"
+        android:title="Log Out" />
+
+</menu>

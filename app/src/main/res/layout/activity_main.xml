@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/internetoff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/internetno"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/WhenNet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home_final"
+        android:scaleType="centerCrop"/>
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="330dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/login"
+                style="?android:textAppearanceSmall"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:text="Login"
+                android:background="@drawable/round_button"
+                android:alpha="0.8"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/newaccount"
+                style="?android:textAppearanceSmall"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:text="REGISTER"
+                android:background="@drawable/round_button"
+                android:alpha="0.8"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:text="Forgot Password?"
+                android:textSize="20sp" />
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:text="OR"
+                android:textSize="12sp" />
+-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
