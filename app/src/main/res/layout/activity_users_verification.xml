@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".Admin.Admin.UsersVerification">
+    tools:context=".adminModules.adminSection.UsersVerification">
 
 
     <android.support.v7.widget.Toolbar

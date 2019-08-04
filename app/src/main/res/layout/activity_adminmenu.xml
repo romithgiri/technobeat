@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/black"
-    tools:context=".Admin.Admin.AdminMenu">
+    tools:context=".adminModules.adminSection.AdminMenu">
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar30"
         app:title="Admin Panel"
@@ -23,7 +23,7 @@
             android:layout_below="@+id/toolbar30"
             android:id="@+id/sponsorsupload"
             android:layout_height="100dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:text="Sponsors Image Upload"
             android:textColor="@color/black"
@@ -33,7 +33,7 @@
             android:id="@+id/newsupload"
             android:layout_below="@id/sponsorsupload"
             android:layout_height="100dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:text="News Feed Image Upload"
             android:textColor="@color/black"
@@ -42,9 +42,19 @@
             android:id="@+id/userverification"
             android:layout_below="@id/newsupload"
             android:layout_height="100dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:text="user verification"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"/>
+        <Button
+            android:id="@+id/changeAboutFestInfo"
+            android:layout_below="@id/userverification"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:text="Edit about fest"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:background="@drawable/round_button"/>

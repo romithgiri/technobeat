@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".adminModules.adminSection.AboutFestEdit">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/edit"
+        app:title="Edit"
+        app:navigationIcon="@drawable/back_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+        <RelativeLayout
+            android:padding="20dp"
+            android:layout_below="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/aboutTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/round_shape"
+                android:hint="Enter text here...."
+                android:textSize="23sp"
+                android:textColorHint="@color/skyblue"
+                android:textColor="@color/skyblue"/>
+            <Button
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btnEditAboutText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="20sp"
+                android:text="Update"
+                android:background="@drawable/round_button"/>
+
+        </RelativeLayout>
+</RelativeLayout>

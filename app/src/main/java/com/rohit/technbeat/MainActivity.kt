@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.rohit.technbeat.UserModules.FeedAndNavigate
-import com.rohit.technbeat.UserModules.LoginActivity
-import com.rohit.technbeat.UserModules.RegisterActivity
-import com.rohit.technbeat.UserModules.ResetPassword
+import com.rohit.technbeat.userModules.FeedAndNavigate
+import com.rohit.technbeat.userModules.LoginActivity
+import com.rohit.technbeat.userModules.RegisterActivity
+import com.rohit.technbeat.userModules.ResetPassword
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

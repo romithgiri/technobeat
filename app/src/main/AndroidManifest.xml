@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".UserModules.Global"
+        android:name=".userModules.Global"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/icontechnobeat"
@@ -14,10 +14,11 @@
         android:roundIcon="@mipmap/technobeat_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Admin.Admin.UsersVerification"></activity>
-        <activity android:name=".Admin.AdminPanelSelection" />
+        <activity android:name=".adminModules.adminSection.AboutFestEdit"></activity>
+        <activity android:name=".adminModules.adminSection.UsersVerification" />
+        <activity android:name=".adminModules.AdminPanelSelection" />
         <activity
-            android:name=".UserModules.Splash"
+            android:name=".userModules.Splash"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,72 +30,72 @@
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.LoginActivity"
+            android:name=".userModules.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.RegisterActivity"
+            android:name=".userModules.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.AboutFest"
+            android:name=".userModules.AboutFest"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.Events"
+            android:name=".userModules.Events"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.Technical_Events"
+            android:name=".groupOfEvents.Technical_Events"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.GamingEvents"
+            android:name=".groupOfEvents.GamingEvents"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.MediaEvents"
+            android:name=".groupOfEvents.MediaEvents"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.PhotographyEvents"
+            android:name=".groupOfEvents.PhotographyEvents"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.FlagshipEvents"
+            android:name=".groupOfEvents.FlagshipEvents"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GroupOfEvents.CorporateEvents"
+            android:name=".groupOfEvents.CorporateEvents"
             android:label="@string/title_activity_corporate_events"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".UserModules.CoreMembers"
+            android:name=".userModules.CoreMembers"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.Sponsors"
+            android:name=".userModules.Sponsors"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.FollowUs"
+            android:name=".userModules.FollowUs"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Admin.Admin.AdminMenu"
+            android:name=".adminModules.adminSection.AdminMenu"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.FeedAndNavigate"
+            android:name=".userModules.FeedAndNavigate"
             android:label="@string/title_activity_feed_and_navigate"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity android:name=".Book" />
         <activity
-            android:name=".UserModules.Participated"
+            android:name=".userModules.Participated"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.Developer"
+            android:name=".userModules.Developer"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.ResetPassword"
+            android:name=".userModules.ResetPassword"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserModules.menu"
+            android:name=".userModules.menu"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Admin.Admin.Storage"
+            android:name=".adminModules.adminSection.Storage"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Admin.Admin.S_upload"
+            android:name=".adminModules.adminSection.S_upload"
             android:screenOrientation="portrait" />
     </application>
 

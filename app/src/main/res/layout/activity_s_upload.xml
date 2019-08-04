@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".Admin.Admin.S_upload">
+    tools:context=".adminModules.adminSection.S_upload">
 
     <LinearLayout
         android:layout_below="@+id/toolbar31"
