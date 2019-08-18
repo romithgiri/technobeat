@@ -48,7 +48,7 @@ class AdminMenu: AppCompatActivity() {
             startActivity(intent)
         }
         changeAboutFestInfo.setOnClickListener {
-            val intent=Intent(this, UsersVerification::class.java)
+            val intent=Intent(this, AboutFestEdit::class.java)
             startActivity(intent)
         }
 

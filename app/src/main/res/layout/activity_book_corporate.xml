@@ -18,13 +18,15 @@
             <TableRow
                 android:gravity="center"
                 android:layout_marginTop="10dp">
+
                 <TextView
-                    android:text="Event Name"
-                    android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event Name"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amita" />
             </TableRow>
             <TableRow
                 android:gravity="center">
@@ -83,17 +85,6 @@
                     android:textSize="20dp"
                     android:textStyle="bold"/>
             </TableRow>
-
-            <TableRow
-                android:gravity="center">
-                <Button
-                    android:id="@+id/PRcheck"
-                    android:background="@drawable/round_shape"
-                    android:text="Verify"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    android:textSize="30dp"/>
-            </TableRow>
             <TableRow
                 android:layout_marginTop="20dp">
                 <TextView
@@ -105,6 +96,42 @@
             </TableRow>
         </TableLayout>
     </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/PRcheck"
+            android:textColor="@color/skyblue"
+            android:text="Cash payment"
+            android:textSize="18sp"
+            android:padding="11dp"
+            android:background="@drawable/round_shape"
+            android:layout_width="160dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/skyblue"
+            android:text="OR"
+            android:textSize="18sp"
+            android:padding="11dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/round_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/onlinePay"
+            android:textColor="@color/skyblue"
+            android:text="Google Pay"
+            android:textSize="18sp"
+            android:padding="11dp"
+            android:background="@drawable/round_shape"
+            android:layout_width="160dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar6"
         app:navigationIcon="@drawable/back_arrow"

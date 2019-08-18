@@ -97,6 +97,10 @@
         <activity
             android:name=".adminModules.adminSection.S_upload"
             android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
